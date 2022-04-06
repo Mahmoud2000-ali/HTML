@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This Is Simple Number Sytem">
+    <title> Number System </title>
+    <link rel="stylesheet" href="../Css/numberSystem.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--  Start Fixed Menu -->
+    <div class="continer">
+        <div class="fixed-menu">
+            <ul class="unorder">
+                <li class="selctor" data-type="simple"> Simple System</li>
+                <li data-type="partical"> Partical System </li>
+            </ul>
+            <i class="fa fa-gear fa-lg"></i>
+        </div>
+        <!-- Start Simple System -->
+        <div class="simple-system">
+            <h3> Simple System </h3>
+
+            <div class="start-simple">
+                <input type="text" name="text" placeholder="Write Your Number" class="number-simple">
+                <span> To </span>
+                <select class="select-simple-style"> 
+             <option></option>
+            <option value="decimal">decimal</option>
+            <option value="binary">binary</option>
+            <option value="octal">octal</option>
+            <option value="hexadecmal">hexadecmal</option>
+            </select>
+                <button class="button-simple"> Conversion </button>
+                <input type="text" placeholder="Result" class="result-simple" disabled maxlength="99">
+            </div>
+
+        </div>
+
+        <!-- Start Partical System -->
+        <div class="Partical-system">
+            <h3> Bartical System </h3>
+            <div class="start-Partical">
+                <select class="select-Partical-style"> 
+             <option></option>
+            <option value="decimal" selected>decimal</option>
+            <option value="binary" selected>binary</option>
+            <option value="octal">octal</option>
+            <option value="hexadecmal">hexadecmal</option>
+            </select>
+                <span> To </span>
+                <select class="select-Partical-style-system"> 
+            <option></option>
+            <option value="decimal">decimal</option>
+            <option value="binary">binary</option>
+            <option value="octal">octal</option>
+            <option value="hexadecmal">hexadecmal</option>
+            </select>
+                <input type="text" name="text" placeholder="Write Your Number" class="number-Partical">
+                <input type="text" placeholder="Result" class="result-Partical" disabled>
+                <button class="button-Partical" style="display:block"> Conversion </button>
+            </div>
+        </div>
+        <div class="start-fotor">
+            <span> copyright &copy; 2018 Engineer Anas Omar Obaid </span>
+        </div>
+    </div>
+    <script src="../jQuery/jquery-3.3.1.min.js"></script>
+    <script src="../jQuery/numberSystem.js"></script>
+</body>
+
+
+</html>

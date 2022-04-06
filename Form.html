@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="This Is Anew Form">
+
+    <title> Form </title>
+
+    <style>
+        
+        boody {
+
+            background: #ccc;
+        }
+
+        fieldset {
+
+            background: #efefefef;
+            border: 1px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 500px
+        }
+
+        legend {
+            background: #ccc;
+            border: 1px;
+            padding: 1px
+        }
+
+        label {
+            margin-bottom: 10px
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 300
+        }
+
+        label,
+
+        select {
+            display: block;
+            padding: 8px
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 8px;
+            width: 300;
+            display: block
+        }
+
+        textarea {
+            padding: 10px;
+            width: 300px;
+            min-height: 200px;
+            max-height: 300px
+            
+        }
+    </style>
+
+    <body>
+
+        <form name="new Form">
+            <fieldset name="Anas">
+                <legend> Personal Information </legend>
+
+                <label> UserName </label>
+
+                <input type="text" name="Text" placeholder="UserName">
+
+                <label> Email </label>
+
+                <input type="email" name="Test Email" placeholder="@gmail.com">
+                <label> Password </label>
+
+                <input type="password" name="password" placeholder="password">
+
+                <br>
+                <label> Gender </label>
+                <select name="select">
+                <option selected> Male </option>
+               <option disabled> Female </option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend> Favourite </legend>
+                <label> Your Favourite Editor </label>
+                <input type="radio" name="editor"> Komodo <br>
+                <input type="radio" name="editor"> NetBens<br>
+                <input type="radio" name="editor"> Brackets<br>
+
+                <hr>
+
+
+
+
+                <label> Your Favourite Browsers </label>
+                <input type="checkbox" name="browrs" value="Chrom"> Google Chrom <br>
+                <input type="checkbox" name="browrs" value="Opra"> Opra <br>
+                <input type="checkbox" name="browrs" value="FirFox"> Mozilla FirFox <br>
+
+                <hr>
+
+                <label> Your Favourite Oparating System </label>
+
+                <input type="radio" name="os" value="Os"> Windos <br>
+                <input type="radio" name="os" value="Os"> Mac <br>
+                <input type="radio" name="os" value="Os"> Linux <br>
+
+            </fieldset>
+
+            <fieldset name="new">
+                <legend> Your Massege </legend>
+                <textarea> </textarea>
+
+            </fieldset>
+            <fieldset>
+                <legend> Choosen </legend>
+                <input type="submit" name="Sent Your Data" value=" Sent Your Data ">
+                <input type="reset" name="Rest Your Data " value="Rest Your Data">
+                <input type="file">
+                <br>
+                <input type="checkbox" name="Remmber My " value="Remmber My"> Remmber My
+            </fieldset>
+        </form>
+
+
+
+    </body>
+
+
+
+
+</head>
+
+
+
+</html>
